@@ -2,7 +2,7 @@
 
 source "scripts/common.sh"
 
-REPOSITORY=https://github.com/bitspossessed/culturestake-subgraph.git
+REPOSITORY=https://github.com/tripledoublev/culturestake-subgraph.git
 FOLDER_NAME=subgraph
 
 check_tmp_folder $REPOSITORY $FOLDER_NAME
@@ -11,7 +11,7 @@ check_tmp_folder $REPOSITORY $FOLDER_NAME
 rm -rf build src/types
 
 # Use this for local testing:
-# git checkout 123457
+#git checkout 123457
 
 git fetch --all
 git reset --hard origin/main
