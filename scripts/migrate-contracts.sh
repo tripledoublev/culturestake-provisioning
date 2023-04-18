@@ -2,7 +2,7 @@
 
 source "scripts/common.sh"
 
-REPOSITORY=https://github.com/bitspossessed/culturestake-contracts.git
+REPOSITORY=https://github.com/tripledoublev/culturestake-contracts.git
 FOLDER_NAME=contracts
 
 check_tmp_folder $REPOSITORY $FOLDER_NAME

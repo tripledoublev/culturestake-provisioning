@@ -12,7 +12,7 @@ RUN apt-get update \
       && apt-get install -y git python build-essential postgresql-client
 
 # Install and build culturestake app
-RUN git clone https://github.com/lazaruslabs/culturestake.git app \
+RUN git clone https://github.com/tripledoublev/culturestake.git app \
       && cd app \
       && git checkout --quiet ${GIT_COMMIT}
 
